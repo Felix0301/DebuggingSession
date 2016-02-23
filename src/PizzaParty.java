@@ -22,7 +22,7 @@ public class PizzaParty {
 
         //invite guests
         guests = new ArrayList<Guest>();
-        for (int i = 1; i < nrOfGuests; i++){ //TODO: index = 0
+        for (int i = 0; i < nrOfGuests; i++){ //TODO: index = 0
             guests.add(new Guest(Util.NAMES[i]));
         }
 
@@ -51,6 +51,13 @@ public class PizzaParty {
             if (guest.name.equals(hostName)) {
                 guest.consume(Drink.BIRTHDAYSHOT.calories);
             }
+        }
+        countCalories();
+    }
+
+    private void countCalories() {
+        for (Guest guest : guests){
+            consumedCalories += guest.consumedCalories;
         }
     }
 }
