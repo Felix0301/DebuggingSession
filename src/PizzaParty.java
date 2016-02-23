@@ -22,7 +22,7 @@ public class PizzaParty {
 
         //invite guests
         guests = new ArrayList<Guest>();
-        for (int i = 0; i < nrOfGuests; i++){ //TODO: index = 0
+        for (int i = 1; i < nrOfGuests; i++){ //TODO: index = 0
             guests.add(new Guest(Util.NAMES[i]));
         }
 
