@@ -12,9 +12,9 @@ public class PizzaParty {
     public Stack beers = new Stack();
     public List<Guest> guests;
     //how many calories were consumend?
-    public double consumedCalories;
+    public int consumedCalories;
     //how many calories did the host provide?
-    public double providedCalories;
+    public int providedCalories;
 
     public PizzaParty(int nrOfGuests, Topping pizzaTopping, int nrOfBeers){
         //add all groceries to list of provided calories

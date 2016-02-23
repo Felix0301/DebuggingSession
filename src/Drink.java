@@ -5,9 +5,9 @@ public enum Drink {
         BEER (310) ,
         BIRTHDAYSHOT (280);
 
-        public final double calories;
+        public final int calories;
 
-        Drink(double calories){
+        Drink(int calories){
             this.calories = calories;
         }
 }

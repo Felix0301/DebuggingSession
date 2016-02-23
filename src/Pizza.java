@@ -9,7 +9,7 @@ import java.util.Stack;
 public class Pizza {
 
     public Stack slices;
-    public double calories;
+    public int calories;
 
     public Pizza(Topping topping){
         this.calories = topping.calories;

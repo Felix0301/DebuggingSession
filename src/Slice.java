@@ -3,9 +3,9 @@
  */
 public class Slice {
 
-    public double calories = 0;
+    public int calories = 0;
 
-    public Slice(double calories){
+    public Slice(int calories){
         calories = calories;
     }
 
