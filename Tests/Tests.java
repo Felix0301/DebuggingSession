@@ -50,7 +50,7 @@ public class Tests {
 
     @Test
     public void test8(){
-        PizzaParty party = new PizzaParty(10,Topping.DIETPILLS,4);
+        PizzaParty party = new PizzaParty(8,Topping.DIETPILLS,12);
         Assert.assertEquals(party.consumedCalories,party.providedCalories);
     }
 
